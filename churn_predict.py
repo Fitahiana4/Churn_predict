@@ -46,8 +46,7 @@ all_columns = ['City',
  'admin_canc_rate',
  'champ_canc_rate',
  'supply_rate',
- 'Request',
- 'Churn']
+ 'Request']
 
 def make_encoding_labelencoder(df, columns):
     label_encoder = LabelEncoder()
@@ -141,7 +140,7 @@ churn_model = pickle.load(open(model_path, 'rb'))
 # ---------------------------------
 #   A P P L I C A T I O N
 # ---------------------------------
-st.title("🤖 Machine Learning")
+st.title("🤖 Predict user churn")
 
 with st.expander("CHURN PREDICTION - BY UPLOADIN FILE"):
     st.write("***Your data must content some columns(11) like this :***")
