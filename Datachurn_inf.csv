@@ -1,0 +1,2 @@
+City,FinishedTrips,Amount_per_trip,TripDistance_per_trip,prop_voiture,prop_tricycle,prop_moto,completion_rate,user_canc_rate,admin_canc_rate,champ_canc_rate,supply_rate,Request
+Lome,10,2000,5,0.8,0.2,0,80,0.3,0,0.4,0.8,20
